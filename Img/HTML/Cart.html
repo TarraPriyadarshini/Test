@@ -1,0 +1,162 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\css\style.css" />
+    <script src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\js\cartslice.js" async></script>
+
+
+
+    <title>CART</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="Index.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\logodesign.jpg"
+                        width="100px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Index.html"><b><i>HOME</i></b></a></li>
+                    <li><a href=""><b><i>ABOUT</i></b></a></li>
+                    <li><a href="products.html"><b><i>PRODUCTS</i></b></a></li>
+                    <li><a href=""><b><i>ACCOUNT</i></b></a></li>
+
+
+                </ul>
+            </nav>
+            <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\nn.png" width="30px">
+            <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\22132.png" class="menu-icon" width="25px"
+                onclick="menutoggle()">
+
+        </div>
+    </div>
+    <!-------------Cart Items Details------  -->
+    <div class="small-container">
+        <table>
+            <tr>
+                <th>PRODUCT</th>
+                <th>QUANTITY</th>
+                <th>PRICE</th>
+            </tr>
+        </table>
+
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-info">
+                    <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p9.jpg" width="200px"
+                        height="200px">
+                    <div>
+                        <p>Flats</p>
+                        <span class="cart-price">$75.00</span>
+
+                        <div class="cart-quantity">
+                            <input class="cart-quantity-input" type="number" value="1">
+
+
+                        </div>
+                        <button class="btn-danger" type="button">Remove</button>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="cart-row">
+                <div class="cart-info">
+                    <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p12.jpg" width="200px"
+                        height="200px">
+                    <div>
+                        <p>Flats</p>
+                        <span class="cart-price">$50.00</span>
+                        <br>
+                        <div class="cart-quantity">
+                            <input class="cart-quantity-input" type="number" value="1">
+
+                        </div>
+                        <button class="btn-danger" type="button">Remove</button>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="cart-row">
+                    <div class="cart-info">
+                        <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p11.jpg" width="200px"
+                            height="200px">
+                        <div>
+                            <p>Flats</p>
+                            <span class="cart-price">$50.00</span>
+
+                            <div class="cart-quantity">
+                                <input class="cart-quantity-input" type="number" value="1">
+
+                            </div>
+                            <button class="btn-danger" type="button">Remove</button>
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="total-price">
+                <strong class="cart-total-title">TOTAL PRICE</strong>
+                <span class="cart-total-price"><i>$150.00</i></span>
+            </div>
+
+
+
+
+            <!---------toggle menu-->
+            <script>
+                var MenuItems = document.getElementById("MenuItems");
+
+                MenuItems.style.maxHeight = "0px";
+
+                function menutoggle() {
+                    if (MenuItems.style.maxHeight == "0px") {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                    else {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+
+                }
+            </script>
+
+
+
+
+
+</body>
+
+</html>

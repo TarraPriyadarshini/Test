@@ -1,0 +1,171 @@
+<html >
+    <head>
+        <link rel="stylesheet" href="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\css\style.css"/>
+        <script src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\js\cartslice.js" async></script>
+        <title>ALL PRODUCTS</title>
+        
+    </head>
+    
+    <body >
+            <div class="container">
+                <div class="navbar">
+                    <div class ="logo">
+                        <a href="Index.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\logodesign.jpg" width="100px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="Index.html"><b><i>HOME</i></b></a></li>
+                            <li><a href=""><b><i>ABOUT</i></b></a></li>
+                            <li><a href="products.html"><b><i>PRODUCTS</i></b></a></li>
+                            <li><a href=""><b><i>ACCOUNT</i></b></a></li>
+                            
+                            
+                        </ul>
+                    </nav>
+                    <a href="Cart.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\nn.png"width="30px" > </a>
+                    <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\22132.png" class="menu-icon" onclick="menutoggle()" >
+
+                </div>
+            </div>
+<!--------single product details---->
+            <div class="small-container  single-product">
+
+                <div class="row">  
+                    <div class="col-2">
+
+                    
+ 
+                        <span class="shop-item-title"></span>
+                        <img  class="shop-item-image" src ="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\rowp1.jpg" width="480px" id="ProductImg" >
+                        <div class="small-img-row">
+
+                            <div class="small-img-col">
+
+                                <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\rowp1.jpg" class="small-img" >
+
+                            </div>
+                            <div class="small-img-col">
+                                <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\rowp2.jpg" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\rowp3.jpg" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\rowp4.jpg" class="small-img">
+                            </div>
+
+                        </div>
+                    
+                    </div>
+                    <div class="col-2">
+                        <p> Home | Crop Top </p>
+                        <h1>Textured Floral printed Top</h1>
+                        <span class="shop-item-price">$59.99</span>
+                        <select >
+
+                            <option>Select Size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>Large</option>
+                            <option>Medium</option>
+                            <option>Small</option>
+                        </select>
+                        <input type="number" value="1">
+                        <a href="Cart.html"><button Cart.html" class="shop-item-button" type="button" >ADD TO CART</button></a>
+                        <h3>Product details</h3>
+                        <br>
+                        <p> Give Your summer wardrobe a Style upgrade with the HRX Women's active Tops.</p>
+            
+                    </div>
+                </div>
+            </div>
+ <!----------title--------->          
+           <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <a href="products.html"><p>View More</p></a>
+
+            </div>
+
+           </div>
+
+
+<!------products---------->
+       
+        <div class="small-container">
+             
+            <div class="row">
+                <div class="col-4">
+                    <a href="productdetails9.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p9.jpg"></a>
+                    <h4>Textured floral print</h4>
+                    <a>&starf;&starf;&starf;&starf;&star; </a>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="productdetails10.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p10.jpg" ></a>
+                    <h4>Textured Floral Print-Crop Top</h4>
+                    <a>&starf;&starf;&starf;&starf;&starf; </a>
+                    <p>$62.89</p>
+                </div>
+                <div class="col-4">
+                    <a href="productdetails11.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p11.jpg"></a>
+                    <h4>Timepiece Rolex Watch</h4>
+                    <a>&starf;&starf;&starf;&star;&star; </a>
+                    <p>$42.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="productdetails12.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p12.jpg" ></a>
+                    <h4>Decorated Fringe Flat Slide Sandals</h4>
+                    <a>&starf;&starf;&starf;&starf;&starf; </a>
+                    <p>$7.20</p>
+                </div>
+            </div>
+            
+        </div>  
+        
+        <!---------toggle menu-->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight= "0px";
+
+            function menutoggle() {
+                if(MenuItems.style.maxHeight== "0px")
+                {
+                    MenuItems.style.maxHeight= "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight= "0px";
+                }
+
+            }
+        </script>
+        <!--------product gallery-------->
+        <script>
+            var ProductImg = document.getElementById("ProductImg");
+            var   smallImg = document.getElementsByClassName("small-img");
+            smallImg[0].onclick = function(){
+                ProductImg.src = smallImg[0].src;
+            }
+            smallImg[1].onclick = function(){
+                ProductImg.src = smallImg[1].src;
+            }
+            smallImg[2].onclick = function(){
+                ProductImg.src = smallImg[2].src;
+            }
+            smallImg[3].onclick = function(){
+                ProductImg.src = smallImg[3].src;
+            }
+             
+
+
+
+        </script>
+
+
+        
+        
+          
+    </body>
+</html> 

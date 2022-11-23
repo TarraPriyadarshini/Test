@@ -1,0 +1,135 @@
+<html >
+    
+    <head>
+        <script src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\js\cartslice.js" async></script>
+        <link rel="stylesheet" href="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\css\style.css"/>
+        
+         
+        <title>ALL PRODUCTS</title>
+        
+    </head>
+    
+    <body >
+            <div class="container">
+                <div class="navbar">
+                    <div class ="logo">
+                        <a href="Index.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\logodesign.jpg"  width="100px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="Index.html"><b><i>HOME</i></b></a></li>
+                            <li><a href=""><b><i>ABOUT</i></b></a></li>
+                            <li><a href="products.html"><b><i>PRODUCTS</i></b></a></li>
+                            <li><a href=""><b><i>ACCOUNT</i></b></a></li>
+                            
+                            
+                        </ul>
+                    </nav>
+                    <a href="Cart.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\nn.png" width="30px"></a>
+                    <img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\22132.png" class="menu-icon" width="25px" onclick="menutoggle()" >
+
+                </div>
+            </div>
+<!--------single product details---->
+            <div class="small-container  single-product">
+
+                <div class="row">
+                    <span class="shop-item-title"></span>
+                    <img class="shop-item-image" src ="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p8.jpg" width="480px"  id="ProductImg">
+                    
+                    <div class="col-2">
+                        <p>Home | Lipsticks</p>
+                        <h1>Fenty-Slip shine Lipstick</h1>
+
+                        <span class="shop-item-price">$19.99</span>
+                        <select >
+
+                            <option>Select Size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>Large</option>
+                            <option>Medium</option>
+                            <option>Small</option>
+                        </select>
+                        <input type="number" value="1">
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                        <h3>Product details</h3>
+                        <br>
+                        <p> Matte Lipstick For Women of Color. Keep reading for some more of our favourite matte lipsticks- don't dry out your lips.</p>
+                    </div>   
+            
+                    
+                        
+            
+                </div>
+            </div>
+            
+ <!----------title--------->          
+           <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p><a href="products.html">View More</a></p>
+
+            </div>
+
+           </div>
+
+
+<!------products---------->
+       
+        <div class="small-container">
+             
+            <div class="row">
+                <div class="col-4">
+                    <a href="productdetails4.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p4.jpg"></a>
+                    <h4>Textured floral print</h4>
+                    <a>&starf;&starf;&starf;&starf;&star; </a>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="productdetails6.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p6.jpg" ></a>
+                    <h4>Textured Floral Print-Crop Top</h4>
+                    <a>&starf;&starf;&starf;&starf;&starf; </a>
+                    <p>$62.89</p>
+                </div>
+                <div class="col-4">
+                    <a href="productdetails1.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p1.jpg"></a>
+                    <h4>Timepiece Rolex Watch</h4>
+                    <a>&starf;&starf;&starf;&star;&star; </a>
+                    <p>$42.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="productdetails3.html"><img src="C:\Users\Tarra Priyadarshini\OneDrive\Desktop\Img\Images\col4p3.jpg" ></a>
+                    <h4>Decorated Fringe Flat Slide Sandals</h4>
+                    <a>&starf;&starf;&starf;&starf;&starf; </a>
+                    <p>$7.20</p>
+                </div>
+            </div>
+            
+        </div>  
+        
+        <!---------toggle menu-->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight= "0px";
+
+            function menutoggle() {
+                if(MenuItems.style.maxHeight== "0px")
+                {
+                    MenuItems.style.maxHeight= "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight= "0px";
+                }
+
+            }
+        </script>
+        <!--------product gallery-------->
+        
+        
+        
+          
+    </body>
+</html> 
